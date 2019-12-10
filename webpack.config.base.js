@@ -18,6 +18,11 @@ module.exports = {
           plugins: ['@babel/plugin-proposal-class-properties'],
         },
       },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+        exclude: /node_modules/,
+      },
     ],
   },
   plugins: [
