@@ -18,7 +18,7 @@ class App extends React.Component {
     const { count } = this.state;
     return (
       <div>
-        <h1>Hello Hanoi !!!!</h1>
+        <h1>Hello Hanoi</h1>
         <h2 className={count > 10 ? 'warning' : ''}>
           Count: {this.state.count}
         </h2>
